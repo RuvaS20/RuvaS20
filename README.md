@@ -7,4 +7,4 @@ Student
 Phillipians-4-13.
 
 * 🌍  I'm based in Zimbabwe / Ghana
-* I am an aspiring web developer/designer and makeup artist
+
