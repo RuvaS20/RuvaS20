@@ -1,10 +1,7 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Ruvarashe Sadya
+Hi, I'm Ruva!
 =======================================================================================================================================
 
 Student
 -------
 
 Phillipians-4-13.
-
-* 🌍  I'm based in Zimbabwe / Ghana
-
