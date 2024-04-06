@@ -42,9 +42,7 @@
 ###
 
 <div align="center">
-  <a href="https://open.spotify.com/user/Ruva%20Sadya">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Ruva%20Sadya&count=3" alt="Spotify recently played"  />
-  </a>
+  [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4wnn0nneymm8i908mokjrm9ku&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false)](https://github.com/kittinan/spotify-github-profile)
 </div>
 
 ###
