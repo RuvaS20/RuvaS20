@@ -34,9 +34,3 @@
 </div>
 
 ###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/RuvaS20/RuvaS20/output/snake.svg" alt="Snake animation" />
-
-###
