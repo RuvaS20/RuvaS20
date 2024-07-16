@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ruva</h1>
 <h3 align="center">A computer science student from Zimbabwe</h3>
 
-- 🔭 I’m currently working on **Dr Roots**
+- 🔭 I’m currently working on <a href="https://github.com/RuvaS20/Dr-Roots" target="blank">**Dr Roots**</a>
 
 - 🌱 I’m currently learning **Java, Tensorflow, CNNs, Python and more**
 
