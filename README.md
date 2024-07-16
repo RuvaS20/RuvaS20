@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **ruvarashe.sadya@gmail.com**
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/1u5WVLYwZoQwJsq-kSJ3wbRZUsObRUBiWdWsOogX2VzI/edit?usp=sharing](https://docs.google.com/document/d/1u5WVLYwZoQwJsq-kSJ3wbRZUsObRUBiWdWsOogX2VzI/edit?usp=sharing)
+- 📄 Know about my experiences <a href="https://docs.google.com/document/d/1u5WVLYwZoQwJsq-kSJ3wbRZUsObRUBiWdWsOogX2VzI/edit?usp=sharing" target="blank">in my resume</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
