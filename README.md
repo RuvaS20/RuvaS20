@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on <a href="https://github.com/RuvaS20/Dr-Roots" target="blank">**Dr Roots**</a>
 
-- 🌱 I’m currently learning **Java, Tensorflow, CNNs, Python and more**
+- 🌱 I’m currently learning **Java, Python and more**
 
 - 📫 How to reach me **ruvarashe.sadya@gmail.com**
 
