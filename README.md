@@ -7,8 +7,6 @@
 
 - 📫 How to reach me **ruvarashe.sadya@gmail.com**
 
-- 📄 Know about my experiences <a href="https://docs.google.com/document/d/1u5WVLYwZoQwJsq-kSJ3wbRZUsObRUBiWdWsOogX2VzI/edit?usp=sharing" target="blank">in my resume</a>
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/ruvarashe-sadya/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ruvarashe sadya" height="30" width="40" /></a>
