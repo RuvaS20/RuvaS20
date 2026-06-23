@@ -43,7 +43,4 @@
 <div align="center">
 
  ✦ number one super girl &lt;3< ✦ 
-
-<div align="center">
-  <sub>✦ number one super girl &lt;3< ✦/sub>
 </div>
