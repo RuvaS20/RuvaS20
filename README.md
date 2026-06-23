@@ -13,13 +13,6 @@
   </p>
 
   Hi 👋, I'm Ruva — a Software Engineer from Zimbabwe. 🐱
-
-  <p>
-    <a href="https://www.linkedin.com/in/ruvarashe-sadya/">LinkedIn</a> •
-    <a href="mailto:ruvarashe.sadya@gmail.com">E-Mail</a> •
-    <a href="https://github.com/RuvaS20?tab=repositories">Repositories</a> •
-    <a href="https://github.com/RuvaS20?tab=stars">Stars</a>
-  </p>
   <br>
 </div>
 
