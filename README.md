@@ -16,11 +16,6 @@
   <br>
 </div>
 
-### About me
-
-- 🔭 I'm currently working on [**Dr Roots**](https://github.com/RuvaS20/Dr-Roots)
-- 🌱 I'm currently learning **React, C++ and more**
-
 <br>
 
 <div align="center">
