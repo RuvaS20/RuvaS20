@@ -20,8 +20,6 @@
 
 - 🔭 I'm currently working on [**Dr Roots**](https://github.com/RuvaS20/Dr-Roots)
 - 🌱 I'm currently learning **React, C++ and more**
-- 📫 How to reach me: **ruvarashe.sadya@gmail.com**
-- 💬 Ask me about machine learning, NLP, and web development
 
 <br>
 
