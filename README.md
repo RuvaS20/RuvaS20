@@ -42,17 +42,8 @@
 
 <div align="center">
 
-✦ GitHub Stats ✦
-
-<p>
-  <a href="https://github.com/RuvaS20"><img height="165" src="https://github-readme-stats.vercel.app/api?username=RuvaS20&show_icons=true&icon_color=805AD5&text_color=718096&hide_title=true&hide_border=true&hide=contribs,issues" /></a>
-  <a href="https://github.com/RuvaS20"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RuvaS20&layout=compact&text_color=718096&hide_border=true" /></a>
-</p>
-
-</div>
-
-<br>
+ ✦ number one super girl &lt;3< ✦ 
 
 <div align="center">
-  <sub>number one super girl &lt;3</sub>
+  <sub>✦ number one super girl &lt;3< ✦/sub>
 </div>
