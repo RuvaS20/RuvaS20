@@ -11,7 +11,12 @@
     <a href="mailto:ruvarashe.sadya@gmail.com"><img height="20" src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
     <a href="https://github.com/RuvaS20?tab=followers"><img height="20" src="https://img.shields.io/github/followers/RuvaS20?style=flat&label=Followers&color=805AD5" /></a>
   </p>
-  Hi 👋, I'm Ruva — a Software Engineer from Zimbabwe. 🐱
+  Hi 👋, I'm Ruva!
+  <br>
+  <br>
+  <a href="https://github.com/RuvaS20">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Software+Engineer+from+Zimbabwe+%F0%9F%87%BF%F0%9F%87%BC;" alt="Typing SVG" />
+  </a>
   <br>
 </div>
 <br>
@@ -21,8 +26,8 @@
 
 **Project** | **Description** | **Stars**
 :--- | :--- | :---
-[Lyned](https://github.com/cjquartey/lyned) | 🖋️ Converts raster images into editable SVG line art using deep learning, with a browser-based vector editor and real-time collaboration (React, FastAPI, PyTorch, Node, Redis) | ![Private](https://img.shields.io/badge/Private-🔒-lightgrey?style=flat)
-[Glow Reach Health](https://github.com/daisy-py-bot/glow-reach-health) | 🌸 SheaGlow — a telederm platform with an AI SkinScanner and intake flow for patient skin health (React, FastAPI, MongoDB, Supabase) | ![Private](https://img.shields.io/badge/Private-🔒-lightgrey?style=flat)
+[Lyned](https://github.com/cjquartey/lyned) | 🖋️ Converts raster images into editable SVG line art using deep learning, with a browser-based vector editor and real-time collaboration (React, FastAPI, PyTorch, Node, Redis) | ![Private](https://img.shields.io/badge/-Private-lightgrey?style=flat&logo=github)
+[Glow Reach Health](https://github.com/daisy-py-bot/glow-reach-health) | 🌸 SheaGlow — a telederm platform with an AI SkinScanner and intake flow for patient skin health (React, FastAPI, MongoDB, Supabase) | ![Private](https://img.shields.io/badge/-Private-lightgrey?style=flat&logo=github)
 [Dr-Roots](https://github.com/RuvaS20/Dr-Roots) | 🌿 AI-powered WhatsApp bot for identifying African medicinal plants, using machine learning to recognize indigenous medicinal plants and provide safe usage guidance | [![GitHub stars](https://img.shields.io/github/stars/RuvaS20/Dr-Roots?style=flat&label=)](https://github.com/RuvaS20/Dr-Roots/stargazers)
 [zvirevo_word-embeddings](https://github.com/RuvaS20/zvirevo_word-embeddings) | Word embeddings for the Shona language using Word2Vec and FastText, enabling word similarity and analogy calculations | [![GitHub stars](https://img.shields.io/github/stars/RuvaS20/zvirevo_word-embeddings?style=flat&label=)](https://github.com/RuvaS20/zvirevo_word-embeddings/stargazers)
 [webdevs](https://github.com/RuvaS20/webdevs) | An interactive web application for climate change education | [![GitHub stars](https://img.shields.io/github/stars/RuvaS20/webdevs?style=flat&label=)](https://github.com/RuvaS20/webdevs/stargazers)
