@@ -27,9 +27,9 @@
 <!-- FEED:START -->
 | ✨ What I've been up to | ✍️ From my blog |
 | :-- | :-- |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) | [First post](https://ruvawrites.pages.dev/blog/first-post/) |
-| ✨ Created [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) | [Second post](https://ruvawrites.pages.dev/blog/second-post/) |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) | [First post](https://ruvawrites.pages.dev/blog/first-post/) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) |
+| ✨ Created [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) | [Second post](https://ruvawrites.pages.dev/blog/second-post/) |
 |  | [Third post](https://ruvawrites.pages.dev/blog/third-post/) |
 |  | [Using MDX](https://ruvawrites.pages.dev/blog/using-mdx/) |
 <!-- FEED:END -->
