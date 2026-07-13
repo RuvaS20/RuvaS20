@@ -20,19 +20,23 @@
   <br>
 </div>
 <br>
-<div align="center">
-✦ Featured Projects ✦
-</div>
 
-**Project** | **Description** | **Stars**
-:--- | :--- | :---
-[Lyned](https://github.com/cjquartey/lyned) | 🖋️ Converts raster images into editable SVG line art using deep learning, with a browser-based vector editor and real-time collaboration (React, FastAPI, PyTorch, Node, Redis) | ![Private](https://img.shields.io/badge/-Private-lightgrey?style=flat&logo=github)
-[Glow Reach Health](https://github.com/daisy-py-bot/glow-reach-health) | 🌸 SheaGlow — a telederm platform with an AI SkinScanner and intake flow for patient skin health (React, FastAPI, MongoDB, Supabase) | ![Private](https://img.shields.io/badge/-Private-lightgrey?style=flat&logo=github)
-[Dr-Roots](https://github.com/RuvaS20/Dr-Roots) | 🌿 AI-powered WhatsApp bot for identifying African medicinal plants, using machine learning to recognize indigenous medicinal plants and provide safe usage guidance | [![GitHub stars](https://img.shields.io/github/stars/RuvaS20/Dr-Roots?style=flat&label=)](https://github.com/RuvaS20/Dr-Roots/stargazers)
-[zvirevo_word-embeddings](https://github.com/RuvaS20/zvirevo_word-embeddings) | Word embeddings for the Shona language using Word2Vec and FastText, enabling word similarity and analogy calculations | [![GitHub stars](https://img.shields.io/github/stars/RuvaS20/zvirevo_word-embeddings?style=flat&label=)](https://github.com/RuvaS20/zvirevo_word-embeddings/stargazers)
-[webdevs](https://github.com/RuvaS20/webdevs) | An interactive web application for climate change education | [![GitHub stars](https://img.shields.io/github/stars/RuvaS20/webdevs?style=flat&label=)](https://github.com/RuvaS20/webdevs/stargazers)
-[SWE-HomeAutomation](https://github.com/zviko163/SWE-HomeAutomation) | Home automation software engineering project (collaboration) | [![GitHub stars](https://img.shields.io/github/stars/zviko163/SWE-HomeAutomation?style=flat&label=)](https://github.com/zviko163/SWE-HomeAutomation/stargazers)
-<br>
-<div align="center">
- ✦ number one super girl &lt;3< ✦ 
-</div>
+<h2 align="center">✦ Muchado ✦</h2>
+
+<!-- Recent activity + latest blog posts -->
+<!-- FEED:START -->
+| ✨ What I've been up to | ✍️ From my blog |
+| :-- | :-- |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) | [First post](https://ruvawrites.pages.dev/blog/first-post/) |
+| ✨ Created [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) | [Second post](https://ruvawrites.pages.dev/blog/second-post/) |
+|  | [Third post](https://ruvawrites.pages.dev/blog/third-post/) |
+|  | [Using MDX](https://ruvawrites.pages.dev/blog/using-mdx/) |
+<!-- FEED:END -->
+
+---
+
+
+
+
+<sub>This  is auto-updating README inspired by [Simon Willison](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/).</sub>

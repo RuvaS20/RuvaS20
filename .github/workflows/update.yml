@@ -1,0 +1,68 @@
+# The name that shows up in the "Actions" tab on GitHub for this workflow.
+name: Update README
+
+# 'on' lists the events that trigger this workflow to run.
+on:
+  # 'schedule' runs it automatically on a timer using cron syntax.
+  schedule:
+    # The 5 fields are: minute hour day-of-month month day-of-week.
+    # "17 * * * *" means "at minute 17 of every hour, every day" — so it runs
+    # once an hour, at :17 past. (A non-zero minute is recommended because :00
+    # is busy on GitHub's servers and can be delayed.)
+    - cron: "17 * * * *"
+  # 'workflow_dispatch' adds a manual "Run workflow" button in the Actions tab,
+  # so you can trigger it yourself without waiting for the schedule.
+  workflow_dispatch:
+
+# 'permissions' controls what this workflow's automatic token is allowed to do.
+permissions:
+  # 'contents: write' lets the workflow push commits back to the repository
+  # (needed so it can save the updated README.md).
+  contents: write
+
+# 'jobs' is the list of jobs to run. This workflow has one job called 'update'.
+jobs:
+  update:
+    # 'runs-on' picks the type of virtual machine to run on. 'ubuntu-latest' is
+    # a fresh cloud Linux computer that GitHub creates for this run and then
+    # throws away when it's done.
+    runs-on: ubuntu-latest
+
+    # 'steps' are the commands that run in order, one after another.
+    steps:
+      # 'uses' runs a prebuilt, shareable action. checkout@v4 downloads (clones)
+      # your repository onto the virtual machine so the later steps can use it.
+      - uses: actions/checkout@v4
+
+      # setup-python@v5 installs Python on the machine.
+      - uses: actions/setup-python@v5
+        # 'with' passes settings to the action above — here, which Python version.
+        with:
+          python-version: "3.12"
+
+      # 'run' executes a shell command. This installs 'requests', the one
+      # third-party library your script needs.
+      - run: pip install requests
+
+      # Run your script — this is the actual work that rebuilds the README.
+      - run: python build_readme.py
+        # 'env' defines environment variables just for this step. The value comes
+        # from a GitHub "Secret" (stored safely in repo settings), so the token
+        # never appears in the code. Your script reads it via os.environ.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # A named step that saves any changes back to the repository.
+      - name: Commit changes
+        # The '|' lets us write several shell commands on the lines below.
+        run: |
+          # Set the author name/email for the commit (a bot identity).
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage the updated README so it's ready to be committed.
+          git add README.md
+          # Commit it. If nothing changed, 'git commit' fails, and the '||' makes
+          # it print "No changes" instead of stopping the whole workflow.
+          git commit -m "chore: refresh README" || echo "No changes"
+          # Push the commit back to GitHub so the changes go live.
+          git push

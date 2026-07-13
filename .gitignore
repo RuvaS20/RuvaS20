@@ -1,0 +1,3 @@
+# Python cache files — regenerated automatically, no need to track them
+__pycache__/
+*.pyc
