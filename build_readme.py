@@ -11,9 +11,28 @@ import requests
 # 'as ET' gives it a shorter nickname so we can type ET instead of the long name.
 import xml.etree.ElementTree as ET
 
+# parsedate_to_datetime turns an RSS-style date string (like
+# "Tue, 07 Jul 2026 20:01:22 GMT") into a Python datetime we can reformat.
+from email.utils import parsedate_to_datetime
+
 # Atom feeds tag their elements with this namespace prefix. Storing it in one
 # variable keeps the code below shorter and easier to read.
 ATOM = "{http://www.w3.org/2005/Atom}"
+
+# A small helper that turns any of the date formats we might encounter into a
+# tidy "YYYY-MM-DD" string (e.g. "2026-05-03"). Returns "" if there's no date.
+def format_date(raw):
+    # No date given? Return an empty string so nothing is shown.
+    if not raw:
+        return ""
+    try:
+        # RSS feeds use dates like "Tue, 07 Jul 2026 20:01:22 GMT".
+        # parsedate_to_datetime understands that format; strftime reformats it.
+        return parsedate_to_datetime(raw).strftime("%Y-%m-%d")
+    except (TypeError, ValueError):
+        # GitHub and Atom use dates like "2026-05-03T20:01:22Z", where the first
+        # 10 characters are already the date we want, so just slice those off.
+        return raw[:10]
 
 # My GitHub handle. It gets slotted into the API URL below.
 GITHUB_USERNAME = "RuvaS20"
@@ -95,8 +114,12 @@ def fetch_github():
             # For any other event type, skip to the next loop iteration.
             continue
 
-        # Build the cell text: the action plus a clickable link to the repo.
-        cell = f"{action} [{repo}](https://github.com/{repo})"
+        # Grab the date this event happened. 'created_at' looks like
+        # "2026-05-03T12:34:56Z", so format_date trims it to "2026-05-03".
+        date = format_date(event["created_at"])
+
+        # Build the cell text: the action, a clickable repo link, then the date.
+        cell = f"{action} [{repo}](https://github.com/{repo}) — {date}"
 
         # If we've already recorded this exact cell, skip it (avoids duplicates).
         if cell in seen:
@@ -162,8 +185,17 @@ def fetch_blog():
             else:
                 link = "#"
 
-        # Add the cell text: the post title as a clickable link.
-        cells.append(f"[{title}]({link})")
+        # Get the post's publish date. RSS uses <pubDate>; Atom uses <published>
+        # (or <updated> as a fallback). format_date tidies whichever we find.
+        rawDate = item.findtext("pubDate")
+        if not rawDate:
+            rawDate = item.findtext(ATOM + "published")
+        if not rawDate:
+            rawDate = item.findtext(ATOM + "updated")
+        date = format_date(rawDate)
+
+        # Add the cell text: the post title as a clickable link, then the date.
+        cells.append(f"[{title}]({link}) — {date}")
 
     # Return the list of cells (empty list if there were no posts).
     return cells
