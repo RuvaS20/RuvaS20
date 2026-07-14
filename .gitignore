@@ -1,3 +1,6 @@
 # Python cache files — regenerated automatically, no need to track them
 __pycache__/
 *.pyc
+
+# Personal Claude Code settings — not for the public profile repo
+.claude/settings.local.json
