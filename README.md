@@ -27,11 +27,11 @@
 <!-- FEED:START -->
 | ✨ What I've been up to | ✍️ From my blog |
 | :-- | :-- |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-18 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 2026-07-18 |
 | ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-17 | [First post](https://ruvawrites.pages.dev/blog/first-post/) — 2026-07-13 |
 | ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-14 | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) — 2024-06-19 |
 | ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-13 | [Second post](https://ruvawrites.pages.dev/blog/second-post/) — 2022-07-15 |
 | ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-13 | [Third post](https://ruvawrites.pages.dev/blog/third-post/) — 2022-07-22 |
-| ✨ Created [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-13 | [Using MDX](https://ruvawrites.pages.dev/blog/using-mdx/) — 2024-06-01 |
 <!-- FEED:END -->
 
 ---
