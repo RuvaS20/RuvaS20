@@ -27,18 +27,22 @@
 <!-- FEED:START -->
 | ✨ What I've been up to | ✍️ From my blog |
 | :-- | :-- |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-18 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 2026-07-18 |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-17 | [First post](https://ruvawrites.pages.dev/blog/first-post/) — 2026-07-13 |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-14 | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) — 2024-06-19 |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-13 | [Second post](https://ruvawrites.pages.dev/blog/second-post/) — 2022-07-15 |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-13 | [Third post](https://ruvawrites.pages.dev/blog/third-post/) — 2022-07-22 |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-19 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 2026-07-18 |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-18 | [First post](https://ruvawrites.pages.dev/blog/first-post/) — 2026-07-13 |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-17 | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) — 2024-06-19 |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-14 | [Second post](https://ruvawrites.pages.dev/blog/second-post/) — 2022-07-15 |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 2026-07-13 | [Third post](https://ruvawrites.pages.dev/blog/third-post/) — 2022-07-22 |
 <!-- FEED:END -->
 
 <!-- Spotify top tracks -->
 <!-- SPOTIFY:START -->
 | 🎧 On repeat lately |
 | :-- |
-| _(Spotify not configured yet)_ |
+| [Into the Unknown — Idina Menzel](https://open.spotify.com/track/3Z0oQ8r78OUaHvGPiDBR3W) |
+| [Bonfire — Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
+| [Streetcar — Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
+| [Hazvireve Rudo Handina — Takura](https://open.spotify.com/track/3ttxpiJrO1rte3WbWg4ppV) |
+| [GYALIS — Capella Grey](https://open.spotify.com/track/7wpyrkjEgz7W1vNYDxMKrF) |
 <!-- SPOTIFY:END -->
 
 ---
