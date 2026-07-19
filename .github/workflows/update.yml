@@ -46,11 +46,14 @@ jobs:
 
       # Run your script — this is the actual work that rebuilds the README.
       - run: python build_readme.py
-        # 'env' defines environment variables just for this step. The value comes
-        # from a GitHub "Secret" (stored safely in repo settings), so the token
-        # never appears in the code. Your script reads it via os.environ.
+        # 'env' defines environment variables just for this step. The values come
+        # from GitHub "Secrets" (stored safely in repo settings), so tokens and
+        # passwords never appear in the code. Your script reads them via os.environ.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
       # A named step that saves any changes back to the repository.
       - name: Commit changes

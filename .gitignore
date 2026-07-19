@@ -4,3 +4,6 @@ __pycache__/
 
 # Personal Claude Code settings — not for the public profile repo
 .claude/settings.local.json
+
+# One-time local Spotify token helper — may hold secrets, never commit
+get_spotify_token.py

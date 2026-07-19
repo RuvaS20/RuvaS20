@@ -34,6 +34,13 @@
 | ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 2026-07-13 | [Third post](https://ruvawrites.pages.dev/blog/third-post/) — 2022-07-22 |
 <!-- FEED:END -->
 
+<!-- Spotify top tracks -->
+<!-- SPOTIFY:START -->
+| 🎧 On repeat lately |
+| :-- |
+| _(Spotify not configured yet)_ |
+<!-- SPOTIFY:END -->
+
 ---
 
 

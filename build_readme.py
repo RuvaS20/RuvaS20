@@ -7,6 +7,10 @@ import os, re, sys
 # 'requests' is a third-party library for making HTTP calls
 import requests
 
+# 'base64' encodes the Spotify Client ID and Secret into the single scrambled
+# string Spotify's login endpoint expects. It's built into Python.
+import base64
+
 # xml.etree.ElementTree is Python's built-in tool for reading XML documents.
 # 'as ET' gives it a shorter nickname so we can type ET instead of the long name.
 import xml.etree.ElementTree as ET
@@ -235,10 +239,69 @@ def build_activity_table():
     # Join every line with a newline into one complete table string.
     return "\n".join(lines)
 
+# A function that fetches my top Spotify tracks and returns them as a
+# single-column Markdown table, ready to drop into the README.
+def fetch_spotify():
+
+    # Read the three Spotify secrets from the environment (set as repo Secrets).
+    cid     = os.environ.get("SPOTIFY_CLIENT_ID")
+    secret  = os.environ.get("SPOTIFY_CLIENT_SECRET")
+    refresh = os.environ.get("SPOTIFY_REFRESH_TOKEN")
+
+    # A tiny helper so every "nothing to show" case returns a valid one-row table
+    # instead of breaking the layout. 'message' is the text shown in the row.
+    def placeholder(message):
+        return f"| 🎧 On repeat lately |\n| :-- |\n| {message} |"
+
+    # If any secret is missing, Spotify isn't set up yet — show a placeholder.
+    if not (cid and secret and refresh):
+        return placeholder("_(Spotify not configured yet)_")
+
+    # Spotify wants the Client ID and Secret combined as "id:secret" and then
+    # Base64-encoded. .encode() -> bytes, b64encode -> bytes, .decode() -> string.
+    auth = base64.b64encode(f"{cid}:{secret}".encode()).decode()
+
+    # Trade the long-lived refresh token for a short-lived access token.
+    tokenResponse = requests.post(
+        "https://accounts.spotify.com/api/token",
+        headers={"Authorization": f"Basic {auth}"},
+        data={"grant_type": "refresh_token", "refresh_token": refresh},
+    ).json()
+
+    # .get avoids a crash if the login failed (e.g. an expired refresh token).
+    accessToken = tokenResponse.get("access_token")
+    if not accessToken:
+        return placeholder("_(Spotify login failed)_")
+
+    # Ask Spotify for my top 5 tracks over roughly the last 4 weeks
+    # ("short_term"). The access token proves it's me.
+    result = requests.get(
+        "https://api.spotify.com/v1/me/top/tracks",
+        headers={"Authorization": f"Bearer {accessToken}"},
+        params={"time_range": "short_term", "limit": 5},
+    ).json()
+
+    # Build one table row per track: "Song — Artist" linked to its Spotify page.
+    rows = []
+    for track in result.get("items", []):
+        name = track["name"]
+        artist = track["artists"][0]["name"]
+        url = track["external_urls"]["spotify"]
+        rows.append(f"| [{name} — {artist}]({url}) |")
+
+    # If nothing came back, show a friendly placeholder instead of an empty table.
+    if not rows:
+        return placeholder("_Nothing playing_")
+
+    # Header row + separator, then all the track rows, joined into one table.
+    header = "| 🎧 On repeat lately |\n| :-- |"
+    return header + "\n" + "\n".join(rows)
+
 
 def main():
     content = open(README, encoding="utf-8").read()
     content = replace_chunk(content, "FEED", build_activity_table())
+    content = replace_chunk(content, "SPOTIFY", fetch_spotify())
     open(README, "w", encoding="utf-8").write(content)
  
 if __name__ == "__main__":
