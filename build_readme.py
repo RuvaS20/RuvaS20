@@ -18,25 +18,33 @@ import xml.etree.ElementTree as ET
 # parsedate_to_datetime turns an RSS-style date string (like
 # "Tue, 07 Jul 2026 20:01:22 GMT") into a Python datetime we can reformat.
 from email.utils import parsedate_to_datetime
+# datetime lets us parse GitHub/Atom-style dates (like "2026-05-03T20:01:22Z").
+from datetime import datetime
 
 # Atom feeds tag their elements with this namespace prefix. Storing it in one
 # variable keeps the code below shorter and easier to read.
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 # A small helper that turns any of the date formats we might encounter into a
-# tidy "YYYY-MM-DD" string (e.g. "2026-05-03"). Returns "" if there's no date.
+# tidy "DD/MM" string (e.g. "26/07"). Returns "" if there's no date.
 def format_date(raw):
     # No date given? Return an empty string so nothing is shown.
     if not raw:
         return ""
     try:
         # RSS feeds use dates like "Tue, 07 Jul 2026 20:01:22 GMT".
-        # parsedate_to_datetime understands that format; strftime reformats it.
-        return parsedate_to_datetime(raw).strftime("%Y-%m-%d")
+        # parsedate_to_datetime understands that format.
+        dt = parsedate_to_datetime(raw)
     except (TypeError, ValueError):
-        # GitHub and Atom use dates like "2026-05-03T20:01:22Z", where the first
-        # 10 characters are already the date we want, so just slice those off.
-        return raw[:10]
+        try:
+            # GitHub and Atom use dates like "2026-05-03T20:01:22Z", where the
+            # first 10 characters ("2026-05-03") are the date. strptime reads them.
+            dt = datetime.strptime(raw[:10], "%Y-%m-%d")
+        except ValueError:
+            # Some other unexpected format — give up and show nothing.
+            return ""
+    # strftime reformats the datetime as day/month, e.g. "26/07".
+    return dt.strftime("%d/%m")
 
 # My GitHub handle. It gets slotted into the API URL below.
 GITHUB_USERNAME = "RuvaS20"
@@ -208,9 +216,10 @@ def fetch_blog():
 # table with two side-by-side columns.
 def build_activity_table():
 
-    # Get both columns as lists of cell strings.
+    # Get all three columns as lists of cell strings.
     github = fetch_github()
     blog = fetch_blog()
+    spotify = fetch_spotify()
 
     # If a column is empty, give it a single friendly placeholder cell so the
     # table never has a blank heading with nothing under it.
@@ -218,29 +227,32 @@ def build_activity_table():
         github = ["_Quiet week 😴_"]
     if not blog:
         blog = ["_No posts yet_"]
+    if not spotify:
+        spotify = ["_Nothing on repeat_"]
 
-    # The two columns may have different lengths, so figure out the taller one.
-    height = max(len(github), len(blog))
+    # The three columns may have different lengths, so figure out the tallest.
+    height = max(len(github), len(blog), len(spotify))
 
     # Start with the header row and the '---' separator row Markdown requires.
     # ':--' left-aligns each column.
     lines = [
-        "| ✨ What I've been up to | ✍️ From my blog |",
-        "| :-- | :-- |",
+        "| ruvacodes | ruvawrites | ruvalistens |",
+        "| :-- | :-- | :-- |",
     ]
 
-    # Walk down the rows one at a time, pairing the left and right cells.
+    # Walk down the rows one at a time, pairing the cell from each column.
     for i in range(height):
         # Use the cell if it exists at this position, otherwise leave it blank.
         left = github[i] if i < len(github) else ""
-        right = blog[i] if i < len(blog) else ""
-        lines.append(f"| {left} | {right} |")
+        middle = blog[i] if i < len(blog) else ""
+        right = spotify[i] if i < len(spotify) else ""
+        lines.append(f"| {left} | {middle} | {right} |")
 
     # Join every line with a newline into one complete table string.
     return "\n".join(lines)
 
 # A function that fetches my top Spotify tracks and returns them as a
-# single-column Markdown table, ready to drop into the README.
+# LIST of cell strings (one per track), ready to become a column of the table.
 def fetch_spotify():
 
     # Read the three Spotify secrets from the environment (set as repo Secrets).
@@ -248,14 +260,9 @@ def fetch_spotify():
     secret  = os.environ.get("SPOTIFY_CLIENT_SECRET")
     refresh = os.environ.get("SPOTIFY_REFRESH_TOKEN")
 
-    # A tiny helper so every "nothing to show" case returns a valid one-row table
-    # instead of breaking the layout. 'message' is the text shown in the row.
-    def placeholder(message):
-        return f"| 🎧 On repeat lately |\n| :-- |\n| {message} |"
-
-    # If any secret is missing, Spotify isn't set up yet — show a placeholder.
+    # If any secret is missing, Spotify isn't set up yet — return an empty list.
     if not (cid and secret and refresh):
-        return placeholder("_(Spotify not configured yet)_")
+        return []
 
     # Spotify wants the Client ID and Secret combined as "id:secret" and then
     # Base64-encoded. .encode() -> bytes, b64encode -> bytes, .decode() -> string.
@@ -271,7 +278,7 @@ def fetch_spotify():
     # .get avoids a crash if the login failed (e.g. an expired refresh token).
     accessToken = tokenResponse.get("access_token")
     if not accessToken:
-        return placeholder("_(Spotify login failed)_")
+        return []
 
     # Ask Spotify for my top 5 tracks over roughly the last 4 weeks
     # ("short_term"). The access token proves it's me.
@@ -281,27 +288,21 @@ def fetch_spotify():
         params={"time_range": "short_term", "limit": 5},
     ).json()
 
-    # Build one table row per track: "Song — Artist" linked to its Spotify page.
-    rows = []
+    # Build one cell per track: "Song by Artist" linked to its Spotify page.
+    cells = []
     for track in result.get("items", []):
         name = track["name"]
         artist = track["artists"][0]["name"]
         url = track["external_urls"]["spotify"]
-        rows.append(f"| [{name} — {artist}]({url}) |")
+        cells.append(f"[{name} by {artist}]({url})")
 
-    # If nothing came back, show a friendly placeholder instead of an empty table.
-    if not rows:
-        return placeholder("_Nothing playing_")
-
-    # Header row + separator, then all the track rows, joined into one table.
-    header = "| 🎧 On repeat lately |\n| :-- |"
-    return header + "\n" + "\n".join(rows)
+    # Return the list of cells (empty list if nothing came back).
+    return cells
 
 
 def main():
     content = open(README, encoding="utf-8").read()
     content = replace_chunk(content, "FEED", build_activity_table())
-    content = replace_chunk(content, "SPOTIFY", fetch_spotify())
     open(README, "w", encoding="utf-8").write(content)
  
 if __name__ == "__main__":
