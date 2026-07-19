@@ -27,11 +27,11 @@
 <!-- FEED:START -->
 | ruvacodes | ruvawrites | ruvalistens |
 | :-- | :-- | :-- |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 19/07 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 18/07 | _Nothing on repeat_ |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 18/07 | [First post](https://ruvawrites.pages.dev/blog/first-post/) — 13/07 |  |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 17/07 | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) — 19/06 |  |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 14/07 | [Second post](https://ruvawrites.pages.dev/blog/second-post/) — 15/07 |  |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 13/07 | [Third post](https://ruvawrites.pages.dev/blog/third-post/) — 22/07 |  |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 19/07 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 18/07 | [Into the Unknown by Idina Menzel](https://open.spotify.com/track/3Z0oQ8r78OUaHvGPiDBR3W) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 18/07 | [First post](https://ruvawrites.pages.dev/blog/first-post/) — 13/07 | [Bonfire by Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 17/07 | [Markdown Style Guide](https://ruvawrites.pages.dev/blog/markdown-style-guide/) — 19/06 | [Jacob and the Stone by Emile Mosseri](https://open.spotify.com/track/2nltARCkZyrzjQANViDpuX) |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 14/07 | [Second post](https://ruvawrites.pages.dev/blog/second-post/) — 15/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 13/07 | [Third post](https://ruvawrites.pages.dev/blog/third-post/) — 22/07 | [Hazvireve Rudo Handina by Takura](https://open.spotify.com/track/3ttxpiJrO1rte3WbWg4ppV) |
 <!-- FEED:END -->
 
 ---
