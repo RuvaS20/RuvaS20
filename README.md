@@ -11,13 +11,7 @@
     <a href="mailto:ruvarashe.sadya@gmail.com"><img height="20" src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
     <a href="https://github.com/RuvaS20?tab=followers"><img height="20" src="https://img.shields.io/github/followers/RuvaS20?style=flat&label=Followers&color=805AD5" /></a>
   </p>
-  Hi 👋, I'm Ruva!
-  <br>
-  <br>
-  <a href="https://github.com/RuvaS20">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Software+Engineer+from+Zimbabwe+%F0%9F%87%BF%F0%9F%87%BC;" alt="Typing SVG" />
-  </a>
-  <br>
+  <h2>Hi 👋, I'm Ruva!</h2>
 </div>
 <br>
 
