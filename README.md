@@ -11,9 +11,9 @@
     <a href="mailto:ruvarashe.sadya@gmail.com"><img height="20" src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
     <a href="https://github.com/RuvaS20?tab=followers"><img height="20" src="https://img.shields.io/github/followers/RuvaS20?style=flat&label=Followers&color=805AD5" /></a>
   </p>
-  <h2>Hi 👋, I'm Ruva!</h2>
+  <h2>Hi, I'm Ruva!</h2>
+  <p>I like to build things that work and that are easy on the eye. I like cats, a lot. I code, and write and listen to music (and sing too, but I'm working on sharing that). </p>
 </div>
-<br>
 
 <h2 align="center">✦ Muchado ✦</h2>
 
@@ -33,4 +33,4 @@
 
 
 
-<sub>This an is auto-updating README inspired by [Simon Willison](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/).</sub>
+<sub>This is an auto-updating README I built inspired by [Simon Willison](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/).</sub>
