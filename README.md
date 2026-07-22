@@ -15,7 +15,7 @@
   <p>I like to build stuff. I like cats, a lot. I code, and write and listen to music (and sing too, but I'm working on sharing that). </p>
 </div>
 
-<h2 align="center">✦ Muchado ✦</h2>
+<h2 align="center">✦ Much Ado ✦</h2>
 
 <!-- Recent activity + latest blog posts -->
 <!-- FEED:START -->
