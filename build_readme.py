@@ -25,12 +25,13 @@ from datetime import datetime
 # variable keeps the code below shorter and easier to read.
 ATOM = "{http://www.w3.org/2005/Atom}"
 
-# A small helper that turns any of the date formats we might encounter into a
-# tidy "DD/MM" string (e.g. "26/07"). Returns "" if there's no date.
-def format_date(raw):
-    # No date given? Return an empty string so nothing is shown.
+# A helper that turns any of the date formats we might encounter into a real
+# datetime object we can compare and sort. Returns datetime.min (the earliest
+# possible date) if there's no date or it can't be parsed, so those sort last.
+def parse_date(raw):
+    # No date given? Use the earliest possible date so it sorts to the bottom.
     if not raw:
-        return ""
+        return datetime.min
     try:
         # RSS feeds use dates like "Tue, 07 Jul 2026 20:01:22 GMT".
         # parsedate_to_datetime understands that format.
@@ -41,8 +42,21 @@ def format_date(raw):
             # first 10 characters ("2026-05-03") are the date. strptime reads them.
             dt = datetime.strptime(raw[:10], "%Y-%m-%d")
         except ValueError:
-            # Some other unexpected format — give up and show nothing.
-            return ""
+            # Some other unexpected format — treat it as the earliest date.
+            return datetime.min
+    # RSS dates carry a timezone but GitHub's parsed dates don't. Drop the
+    # timezone so all dates are "naive" and can be compared without errors.
+    if dt.tzinfo is not None:
+        dt = dt.replace(tzinfo=None)
+    return dt
+
+# A small helper that turns a raw date into a tidy "DD/MM" string (e.g. "26/07")
+# for display. Returns "" if there's no usable date.
+def format_date(raw):
+    dt = parse_date(raw)
+    # datetime.min means "no usable date", so show nothing.
+    if dt == datetime.min:
+        return ""
     # strftime reformats the datetime as day/month, e.g. "26/07".
     return dt.strftime("%d/%m")
 
@@ -114,9 +128,9 @@ def fetch_github():
         print(f"GitHub fetch failed: {error}")
         return []
 
-    # Prepare two containers: 'cells' collects the text for each cell, 'seen'
-    # remembers cells we've already added so we don't repeat them.
-    cells, seen = [], set()
+    # Prepare two containers: 'entries' collects (date, cell) pairs so we can
+    # sort by date, and 'seen' remembers cells we've added so we don't repeat.
+    entries, seen = [], set()
 
     # Loop over each event returned by the API.
     for event in events:
@@ -137,28 +151,26 @@ def fetch_github():
             # For any other event type, skip to the next loop iteration.
             continue
 
-        # Grab the date this event happened. 'created_at' looks like
-        # "2026-05-03T12:34:56Z", so format_date trims it to "2026-05-03".
-        date = format_date(event["created_at"])
+        # The raw timestamp looks like "2026-05-03T12:34:56Z". We keep it twice:
+        # parse_date turns it into a sortable datetime, format_date makes "03/05".
+        raw = event["created_at"]
 
         # Build the cell text: the action, a clickable repo link, then the date.
-        cell = f"{action} [{repo}](https://github.com/{repo}) — {date}"
+        cell = f"{action} [{repo}](https://github.com/{repo}) — {format_date(raw)}"
 
         # If we've already recorded this exact cell, skip it (avoids duplicates).
         if cell in seen:
             continue
 
-        # Remember this cell so we don't add it again later.
+        # Remember this cell, and store it alongside its date for sorting.
         seen.add(cell)
-        # Add it to our list of cells.
-        cells.append(cell)
+        entries.append((parse_date(raw), cell))
 
-        # Stop once we have 5 cells — that's enough for the README.
-        if len(cells) >= 5:
-            break
+    # Sort by date, newest first (reverse=True). The key picks the datetime.
+    entries.sort(key=lambda pair: pair[0], reverse=True)
 
-    # Return the list of cells (empty list if there was no activity).
-    return cells
+    # Return just the cell text of the 5 most recent entries.
+    return [cell for _, cell in entries[:5]]
 
 # A function that reads my blog's feed and returns the latest posts as a
 # LIST of cell strings (one per post), ready to become the right column of the
@@ -189,11 +201,11 @@ def fetch_blog():
     if not items:
         items = root.findall(".//" + ATOM + "entry")
 
-    # This list will collect one cell string per post.
-    cells = []
+    # This list collects (date, cell) pairs so we can sort by date afterwards.
+    entries = []
 
-    # Loop over the first 5 posts only ([:5] "slices" the list to its first 5).
-    for item in items[:5]:
+    # Loop over every post in the feed (we sort and trim to 5 at the end).
+    for item in items:
 
         # Get the post's title. RSS uses a plain <title>; if that's missing,
         # try the Atom-namespaced <title> instead.
@@ -215,19 +227,21 @@ def fetch_blog():
                 link = "#"
 
         # Get the post's publish date. RSS uses <pubDate>; Atom uses <published>
-        # (or <updated> as a fallback). format_date tidies whichever we find.
+        # (or <updated> as a fallback). We keep the raw value for both sorting
+        # (parse_date) and display (format_date).
         rawDate = item.findtext("pubDate")
         if not rawDate:
             rawDate = item.findtext(ATOM + "published")
         if not rawDate:
             rawDate = item.findtext(ATOM + "updated")
-        date = format_date(rawDate)
 
-        # Add the cell text: the post title as a clickable link, then the date.
-        cells.append(f"[{title}]({link}) — {date}")
+        # Build the cell, and store it alongside its date for sorting.
+        cell = f"[{title}]({link}) — {format_date(rawDate)}"
+        entries.append((parse_date(rawDate), cell))
 
-    # Return the list of cells (empty list if there were no posts).
-    return cells
+    # Sort by date, newest first, then return just the 5 most recent cells.
+    entries.sort(key=lambda pair: pair[0], reverse=True)
+    return [cell for _, cell in entries[:5]]
 
 # A function that combines the GitHub activity and blog posts into ONE Markdown
 # table with two side-by-side columns.
