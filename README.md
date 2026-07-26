@@ -21,11 +21,11 @@
 <!-- FEED:START -->
 | ruvacodes | ruvawrites | ruvalistens |
 | :-- | :-- | :-- |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 25/07 | [Building This Blog: Nav & Ham](https://ruvawrites.pages.dev/blog/building-this-blog-the-nav/) — 24/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 24/07 | [Building This Blog: Fonts & Footers](https://ruvawrites.pages.dev/blog/building-this-blog-fonts-and-footers/) — 23/07 | [I Know Who I Be by Davido](https://open.spotify.com/track/1TglprKNjHw9rmTNgVZpUu) |
-| ⭐ Starred [dicebear/dicebear](https://github.com/dicebear/dicebear) — 24/07 | [Building This Blog: The Theme Toggle](https://ruvawrites.pages.dev/blog/building-this-blog-theme-toggle/) — 20/07 | [Bonfire by Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
-| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 24/07 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 18/07 | [Jacob and the Stone by Emile Mosseri](https://open.spotify.com/track/2nltARCkZyrzjQANViDpuX) |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 23/07 | [Using MDX](https://ruvawrites.pages.dev/blog/using-mdx/) — 01/06 | [トドメの一撃 by Vaundy](https://open.spotify.com/track/7sd09c4dFK5dLHRsySex9L) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 25/07 | [Building This Blog: Nav & Ham](https://ruvawrites.pages.dev/blog/building-this-blog-the-nav/) — 24/07 | [Heartbeats by José González](https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 24/07 | [Building This Blog: Fonts & Footers](https://ruvawrites.pages.dev/blog/building-this-blog-fonts-and-footers/) — 23/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
+| ⭐ Starred [dicebear/dicebear](https://github.com/dicebear/dicebear) — 24/07 | [Building This Blog: The Theme Toggle](https://ruvawrites.pages.dev/blog/building-this-blog-theme-toggle/) — 20/07 | [I Know Who I Be by Davido](https://open.spotify.com/track/1TglprKNjHw9rmTNgVZpUu) |
+| ⬆️ Pushed to [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) — 24/07 | [Building This Blog: Astro](https://ruvawrites.pages.dev/blog/building-this-blog-astro/) — 18/07 | [Bonfire by Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 23/07 | [Using MDX](https://ruvawrites.pages.dev/blog/using-mdx/) — 01/06 | [Jacob and the Stone by Emile Mosseri](https://open.spotify.com/track/2nltARCkZyrzjQANViDpuX) |
 <!-- FEED:END -->
 
 ---
