@@ -22,10 +22,10 @@
 | ruvacodes | ruvawrites | ruvalistens |
 | :-- | :-- | :-- |
 | ✨ Created [RuvaS20/ruhroh](https://github.com/RuvaS20/ruhroh) — 01/08 | [Building This Blog: Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Heartbeats by José González](https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll) |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 01/08 | [Building This Blog: Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 31/07 | [Building This Blog: Nav & Ham](https://ruvawrites.pages.dev/blog/building-this-blog-the-nav/) — 24/07 | [I Know Who I Be (with JAZZWRLD & GL_Ceejay) by Davido](https://open.spotify.com/track/6pxSzYqPAfjFAhzkw9cCCN) |
-| ⭐ Starred [prasadseemakurthi/Deep-Neural-Networks-HealthCare](https://github.com/prasadseemakurthi/Deep-Neural-Networks-HealthCare) — 30/07 | [Building This Blog: Fonts & Footers](https://ruvawrites.pages.dev/blog/building-this-blog-fonts-and-footers/) — 23/07 | [Bonfire by Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
-| ⭐ Starred [kakoni/awesome-healthcare](https://github.com/kakoni/awesome-healthcare) — 30/07 | [Building This Blog: Themes & Toggles](https://ruvawrites.pages.dev/blog/building-this-blog-theme-toggle/) — 20/07 | [Jacob and the Stone by Emile Mosseri](https://open.spotify.com/track/2nltARCkZyrzjQANViDpuX) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 01/08 | [Building This Blog: Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Carry The Weight by Acantha Lang](https://open.spotify.com/track/3VB3IvlL38Bem1fHwcYSzB) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 31/07 | [Building This Blog: Nav & Ham](https://ruvawrites.pages.dev/blog/building-this-blog-the-nav/) — 24/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
+| ⭐ Starred [prasadseemakurthi/Deep-Neural-Networks-HealthCare](https://github.com/prasadseemakurthi/Deep-Neural-Networks-HealthCare) — 30/07 | [Building This Blog: Fonts & Footers](https://ruvawrites.pages.dev/blog/building-this-blog-fonts-and-footers/) — 23/07 | [I Know Who I Be (with JAZZWRLD & GL_Ceejay) by Davido](https://open.spotify.com/track/6pxSzYqPAfjFAhzkw9cCCN) |
+| ⭐ Starred [kakoni/awesome-healthcare](https://github.com/kakoni/awesome-healthcare) — 30/07 | [Building This Blog: Themes & Toggles](https://ruvawrites.pages.dev/blog/building-this-blog-theme-toggle/) — 20/07 | [Bonfire by Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
 <!-- FEED:END -->
 
 ---
