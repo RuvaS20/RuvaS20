@@ -21,11 +21,11 @@
 <!-- FEED:START -->
 | ruvacodes | ruvawrites | ruvalistens |
 | :-- | :-- | :-- |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 05/08 | [Scrubs: Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Heartbeats by José González](https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll) |
-| ⭐ Starred [hari-sikchi/awesome-ai-safety](https://github.com/hari-sikchi/awesome-ai-safety) — 05/08 | [Building This Blog: Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Carry The Weight by Acantha Lang](https://open.spotify.com/track/3VB3IvlL38Bem1fHwcYSzB) |
-| ⭐ Starred [ZHKKKe/Harmonizer](https://github.com/ZHKKKe/Harmonizer) — 04/08 | [Building This Blog: Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
-| ⭐ Starred [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) — 04/08 | [Building This Blog: Nav & Ham](https://ruvawrites.pages.dev/blog/building-this-blog-the-nav/) — 24/07 | [I Know Who I Be (with JAZZWRLD & GL_Ceejay) by Davido](https://open.spotify.com/track/6pxSzYqPAfjFAhzkw9cCCN) |
-| ✨ Created [RuvaS20/ruhroh](https://github.com/RuvaS20/ruhroh) — 01/08 | [Building This Blog: Fonts & Footers](https://ruvawrites.pages.dev/blog/building-this-blog-fonts-and-footers/) — 23/07 | [Bonfire by Childish Gambino](https://open.spotify.com/track/0wps7rop5iHwBo0rQZ2g9A) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 06/08 | [Scrubs: Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Heartbeats by José González](https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 05/08 | [Building This Blog: Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Carry The Weight by Acantha Lang](https://open.spotify.com/track/3VB3IvlL38Bem1fHwcYSzB) |
+| ⭐ Starred [hari-sikchi/awesome-ai-safety](https://github.com/hari-sikchi/awesome-ai-safety) — 05/08 | [Building This Blog: Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
+| ⭐ Starred [ZHKKKe/Harmonizer](https://github.com/ZHKKKe/Harmonizer) — 04/08 | [Building This Blog: Nav & Ham](https://ruvawrites.pages.dev/blog/building-this-blog-the-nav/) — 24/07 | [I Know Who I Be (with JAZZWRLD & GL_Ceejay) by Davido](https://open.spotify.com/track/6pxSzYqPAfjFAhzkw9cCCN) |
+| ⭐ Starred [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) — 04/08 | [Building This Blog: Fonts & Footers](https://ruvawrites.pages.dev/blog/building-this-blog-fonts-and-footers/) — 23/07 | [Jacob and the Stone by Emile Mosseri](https://open.spotify.com/track/2nltARCkZyrzjQANViDpuX) |
 <!-- FEED:END -->
 
 ---
