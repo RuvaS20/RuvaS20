@@ -25,7 +25,7 @@
 | ⭐ Starred [awesome-skills/first-principles-skill](https://github.com/awesome-skills/first-principles-skill) — 11/08 | [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) — 07/08 | [I Know Who I Be (with JAZZWRLD & GL_Ceejay) by Davido](https://open.spotify.com/track/6pxSzYqPAfjFAhzkw9cCCN) |
 | ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 11/08 | [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Carry The Weight by Acantha Lang](https://open.spotify.com/track/3VB3IvlL38Bem1fHwcYSzB) |
 | ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 11/08 | [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Jacob and the Stone by Emile Mosseri](https://open.spotify.com/track/2nltARCkZyrzjQANViDpuX) |
-| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 10/08 | [Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Streetcar by Daniel Caesar](https://open.spotify.com/track/3m5rs2BeWjLUe0Ygc6aM7i) |
+| ⬆️ Pushed to [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) — 10/08 | [Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [UNAVAILABLE (feat. Musa Keys) by Davido](https://open.spotify.com/track/2kaH2Z8ezDUKf6fNw250rZ) |
 <!-- FEED:END -->
 
 ---
