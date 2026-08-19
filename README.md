@@ -25,7 +25,7 @@
 | ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 17/08 | [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) — 07/08 | [Carry The Weight by Acantha Lang](https://open.spotify.com/track/3VB3IvlL38Bem1fHwcYSzB) |
 | ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 16/08 | [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF) |
 | ⭐ Starred [JuanBindez/pytubefix](https://github.com/JuanBindez/pytubefix) — 11/08 | [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy) |
-| ⭐ Starred [awesome-skills/first-principles-skill](https://github.com/awesome-skills/first-principles-skill) — 11/08 | [Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [I Know Who I Be (with JAZZWRLD & GL_Ceejay) by Davido](https://open.spotify.com/track/6pxSzYqPAfjFAhzkw9cCCN) |
+| ⭐ Starred [awesome-skills/first-principles-skill](https://github.com/awesome-skills/first-principles-skill) — 11/08 | [Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Lighter by Galantis](https://open.spotify.com/track/1uXcsl79LVRf13rGxvaqpk) |
 <!-- FEED:END -->
 
 ---
