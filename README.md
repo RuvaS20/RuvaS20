@@ -21,11 +21,11 @@
 <!-- FEED:START -->
 | ruvacodes | ruvawrites | ruvalistens |
 | :-- | :-- | :-- |
-| ⬆️ Pushed to [RuvaS20/projectcatalystoryouth](https://github.com/RuvaS20/projectcatalystoryouth) — 02/09 | [What's DAT?](https://ruvawrites.pages.dev/blog/scrubs-whats-dat/) — 10/08 | [I Miss You (feat. Teddy Pendergrass) by Harold Melvin & The Blue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl) |
-| ⬆️ Pushed to [RuvaS20/projectcatalystoryouth](https://github.com/RuvaS20/projectcatalystoryouth) — 01/09 | [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) — 07/08 | [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF) |
-| ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 30/08 | [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Marinheiro Só by Clementina De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW) |
-| ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 25/08 | [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Tholukuthi (Clap Song) (feat. MaWhoo) by JAZZWRLD](https://open.spotify.com/track/3Ov08eLMxqkNmvtlV9Truu) |
-| ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 24/08 | [Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy) |
+| ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 03/09 | [What's DAT?](https://ruvawrites.pages.dev/blog/scrubs-whats-dat/) — 10/08 | [I Miss You (feat. Teddy Pendergrass) by Harold Melvin & The Blue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl) |
+| ⬆️ Pushed to [RuvaS20/projectcatalystoryouth](https://github.com/RuvaS20/projectcatalystoryouth) — 02/09 | [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) — 07/08 | [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF) |
+| ⬆️ Pushed to [RuvaS20/projectcatalystoryouth](https://github.com/RuvaS20/projectcatalystoryouth) — 01/09 | [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Marinheiro Só by Clementina De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW) |
+| ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 30/08 | [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Tholukuthi (Clap Song) (feat. MaWhoo) by JAZZWRLD](https://open.spotify.com/track/3Ov08eLMxqkNmvtlV9Truu) |
+| ⬆️ Pushed to [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) — 25/08 | [Hero & Zero](https://ruvawrites.pages.dev/blog/building-this-blog-the-home-page/) — 30/07 | [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy) |
 <!-- FEED:END -->
 
 ---
