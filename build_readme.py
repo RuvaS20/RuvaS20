@@ -60,6 +60,28 @@ def format_date(raw):
     # strftime reformats the datetime as day/month, e.g. "26/07".
     return dt.strftime("%d/%m")
 
+# How many characters of each piece of text to show before shortening it. The
+# columns are fixed-width, so trimming here is what stops long names wrapping
+# onto a second line and making one column taller than the others.
+REPO_LIMIT   = 24
+TITLE_LIMIT  = 30
+TRACK_LIMIT  = 26
+ARTIST_LIMIT = 18
+
+# A helper that shortens long text by dropping characters out of the MIDDLE,
+# e.g. "playfultechnology/audio-guestbook" -> "playfultech…io-guestbook". Cutting
+# the middle keeps both the start and the end readable, which matters for repo
+# names (the owner) and post titles (the last few words).
+def truncate(text, limit):
+    # Already short enough? Hand it back untouched.
+    if len(text) <= limit:
+        return text
+    # The "…" takes one character, so the two halves share (limit - 1) between
+    # them. // is integer division, so 'half' is always a whole number.
+    half = (limit - 1) // 2
+    # Glue the first 'half' characters to the last few, with "…" in between.
+    return text[:half] + "…" + text[-(limit - 1 - half):]
+
 # My GitHub handle. It gets slotted into the API URL below.
 GITHUB_USERNAME = "RuvaS20"
 
@@ -140,13 +162,13 @@ def fetch_github():
         # Depending on the event type, choose a short human-readable action word.
         # Each branch checks 'eventType' and, if it matches, sets 'action'.
         if eventType == "PushEvent":
-            action = "⬆️ Pushed to"
+            action = "⬆️ Push"
         elif eventType == "WatchEvent":
-            action = "⭐ Starred"
+            action = "⭐ Star"
         elif eventType == "PullRequestEvent":
-            action = "🔀 PR on"
+            action = "🔀 PR"
         elif eventType == "CreateEvent":
-            action = "✨ Created"
+            action = "✨ Create"
         else:
             # For any other event type, skip to the next loop iteration.
             continue
@@ -156,7 +178,8 @@ def fetch_github():
         raw = event["created_at"]
 
         # Build the cell text: the action, a clickable repo link, then the date.
-        cell = f"{action} [{repo}](https://github.com/{repo}) — {format_date(raw)}"
+        # The link TEXT is shortened, but the URL still uses the full repo name.
+        cell = f"{action} [{truncate(repo, REPO_LIMIT)}](https://github.com/{repo}) – {format_date(raw)}"
 
         # If we've already recorded this exact cell, skip it (avoids duplicates).
         if cell in seen:
@@ -212,6 +235,9 @@ def fetch_blog():
         title = item.findtext("title")
         if not title:
             title = item.findtext(ATOM + "title")
+        # A feed with no title at all would otherwise break the line below.
+        if not title:
+            title = "Untitled"
 
         # Get the post's link. In RSS the URL is the text inside <link>.
         link = item.findtext("link")
@@ -235,52 +261,28 @@ def fetch_blog():
         if not rawDate:
             rawDate = item.findtext(ATOM + "updated")
 
-        # Build the cell, and store it alongside its date for sorting.
-        cell = f"[{title}]({link}) — {format_date(rawDate)}"
+        # Build the cell, and store it alongside its date for sorting. Only the
+        # visible title is shortened; the link still points at the full post.
+        cell = f"[{truncate(title.strip(), TITLE_LIMIT)}]({link}) – {format_date(rawDate)}"
         entries.append((parse_date(rawDate), cell))
 
     # Sort by date, newest first, then return just the 5 most recent cells.
     entries.sort(key=lambda pair: pair[0], reverse=True)
     return [cell for _, cell in entries[:5]]
 
-# A function that combines the GitHub activity and blog posts into ONE Markdown
-# table with two side-by-side columns.
-def build_activity_table():
+# A function that turns one list of cells into the single block of text that
+# lives inside one column of the README's HTML table. Each cell gets a bullet,
+# and '<br>' (an HTML line break) puts each one on its own line. Because the
+# whole column is one block, the three columns no longer have to be the same
+# length as each other.
+def build_column(cells, placeholder):
 
-    # Get all three columns as lists of cell strings.
-    github = fetch_github()
-    blog = fetch_blog()
-    spotify = fetch_spotify()
+    # Nothing to show? Use the friendly stand-in text instead of an empty gap.
+    if not cells:
+        return placeholder
 
-    # If a column is empty, give it a single friendly placeholder cell so the
-    # table never has a blank heading with nothing under it.
-    if not github:
-        github = ["_Quiet week 😴_"]
-    if not blog:
-        blog = ["_No posts yet_"]
-    if not spotify:
-        spotify = ["_Nothing on repeat_"]
-
-    # The three columns may have different lengths, so figure out the tallest.
-    height = max(len(github), len(blog), len(spotify))
-
-    # Start with the header row and the '---' separator row Markdown requires.
-    # ':--' left-aligns each column.
-    lines = [
-        "| ruvacodes | ruvawrites | ruvalistens |",
-        "| :-- | :-- | :-- |",
-    ]
-
-    # Walk down the rows one at a time, pairing the cell from each column.
-    for i in range(height):
-        # Use the cell if it exists at this position, otherwise leave it blank.
-        left = github[i] if i < len(github) else ""
-        middle = blog[i] if i < len(blog) else ""
-        right = spotify[i] if i < len(spotify) else ""
-        lines.append(f"| {left} | {middle} | {right} |")
-
-    # Join every line with a newline into one complete table string.
-    return "\n".join(lines)
+    # Prefix every cell with a bullet, then join them with line breaks.
+    return "<br>".join(f"• {cell}" for cell in cells)
 
 # A function that fetches my top Spotify tracks and returns them as a
 # LIST of cell strings (one per track), ready to become a column of the table.
@@ -344,7 +346,17 @@ def fetch_spotify():
         artists = track.get("artists", [])
         artist = artists[0].get("name", "Unknown") if artists else "Unknown"
         url = track.get("external_urls", {}).get("spotify", "#")
-        cells.append(f"[{name} by {artist}]({url})")
+        # Spotify song names often trail a bracketed note or a dashed one, like
+        # "I Miss You (feat. Teddy Pendergrass)" or "Roads - Remastered". Split
+        # on those and keep only the part before, so the budget below is spent
+        # on the actual title. split returns a list; [0] takes the first piece.
+        name = name.split(" (")[0].split(" - ")[0].strip()
+
+        # Shorten the song and the artist separately, so a very long song title
+        # can never swallow the artist's name entirely (or the other way round).
+        song = truncate(name, TRACK_LIMIT)
+        who = truncate(artist, ARTIST_LIMIT)
+        cells.append(f"[{song} by {who}]({url})")
 
     # Return the list of cells (empty list if nothing came back).
     return cells
@@ -352,7 +364,16 @@ def fetch_spotify():
 
 def main():
     content = open(README, encoding="utf-8").read()
-    content = replace_chunk(content, "FEED", build_activity_table())
+
+    # Each column now sits in its own table cell, so each one is written into
+    # its own pair of markers rather than all three sharing a single block.
+    content = replace_chunk(content, "GITHUB",
+                            build_column(fetch_github(), "_Quiet week 😴_"))
+    content = replace_chunk(content, "BLOG",
+                            build_column(fetch_blog(), "_No posts yet_"))
+    content = replace_chunk(content, "SPOTIFY",
+                            build_column(fetch_spotify(), "_Nothing on repeat_"))
+
     open(README, "w", encoding="utf-8").write(content)
  
 if __name__ == "__main__":

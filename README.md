@@ -17,16 +17,38 @@
 
 <h2 align="center">✦ Much Ado ✦</h2>
 
-<!-- Recent activity + latest blog posts -->
-<!-- FEED:START -->
-| ruvacodes | ruvawrites | ruvalistens |
-| :-- | :-- | :-- |
-| ⭐ Starred [mifi/lossless-cut](https://github.com/mifi/lossless-cut) — 08/09 | [Diamond Tools](https://ruvawrites.pages.dev/blog/scrubs-diamond-tools/) — 06/09 | [I Miss You (feat. Teddy Pendergrass) by Harold Melvin & The Blue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl) |
-| ⭐ Starred [mifi/ezshare](https://github.com/mifi/ezshare) — 08/09 | [What's DAT?](https://ruvawrites.pages.dev/blog/scrubs-whats-dat/) — 10/08 | [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF) |
-| ⭐ Starred [mifi/SimpleInstaBot](https://github.com/mifi/SimpleInstaBot) — 08/09 | [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) — 07/08 | [Marinheiro Só by Clementina De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW) |
-| ⭐ Starred [mifi/stacktracify](https://github.com/mifi/stacktracify) — 08/09 | [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) — 05/08 | [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy) |
-| ⭐ Starred [playfultechnology/audio-guestbook](https://github.com/playfultechnology/audio-guestbook) — 08/09 | [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) — 31/07 | [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2) |
-<!-- FEED:END -->
+<!-- Recent activity + latest blog posts + tracks on repeat -->
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
+**ruvacodes**
+
+<!-- GITHUB:START -->
+• ⭐ Star [mifi/lossless-cut](https://github.com/mifi/lossless-cut) – 08/09<br>• ⭐ Star [mifi/ezshare](https://github.com/mifi/ezshare) – 08/09<br>• ⭐ Star [mifi/SimpleInstaBot](https://github.com/mifi/SimpleInstaBot) – 08/09<br>• ⭐ Star [mifi/stacktracify](https://github.com/mifi/stacktracify) – 08/09<br>• ⭐ Star [playfultech…io-guestbook](https://github.com/playfultechnology/audio-guestbook) – 08/09
+<!-- GITHUB:END -->
+
+</td>
+<td width="33%" valign="top">
+
+**ruvawrites**
+
+<!-- BLOG:START -->
+• [Diamond Tools](https://ruvawrites.pages.dev/blog/scrubs-diamond-tools/) – 06/09<br>• [What's DAT?](https://ruvawrites.pages.dev/blog/scrubs-whats-dat/) – 10/08<br>• [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) – 07/08<br>• [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) – 05/08<br>• [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) – 31/07
+<!-- BLOG:END -->
+
+</td>
+<td width="33%" valign="top">
+
+**ruvalistens**
+
+<!-- SPOTIFY:START -->
+• [I Miss You (feat. T…s) by Harold Melvin](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF)<br>• [Marinheiro Só by Clementina De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)
+<!-- SPOTIFY:END -->
+
+</td>
+</tr>
+</table>
 
 ---
 
