@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⭐ Star [andrewwoan/…rcraft-world](https://github.com/andrewwoan/aimee-rains-papercraft-world) – 09/09<br>• ⭐ Star [tw93/Waza](https://github.com/tw93/Waza) – 09/09<br>• ⭐ Star [tw93/Kaku](https://github.com/tw93/Kaku) – 09/09<br>• ⭐ Star [tw93/Weekly](https://github.com/tw93/Weekly) – 09/09<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 08/09
+• ⭐ Star [simonw/datasette.io](https://github.com/simonw/datasette.io) – 09/09<br>• ⭐ Star [andrewwoan/…rcraft-world](https://github.com/andrewwoan/aimee-rains-papercraft-world) – 09/09<br>• ⭐ Star [tw93/Waza](https://github.com/tw93/Waza) – 09/09<br>• ⭐ Star [tw93/Kaku](https://github.com/tw93/Kaku) – 09/09<br>• ⭐ Star [tw93/Weekly](https://github.com/tw93/Weekly) – 09/09
 <!-- GITHUB:END -->
 
 </td>
