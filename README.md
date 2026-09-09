@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⭐ Star [simonw/datasette.io](https://github.com/simonw/datasette.io) – 09/09<br>• ⭐ Star [andrewwoan/…rcraft-world](https://github.com/andrewwoan/aimee-rains-papercraft-world) – 09/09<br>• ⭐ Star [tw93/Waza](https://github.com/tw93/Waza) – 09/09<br>• ⭐ Star [tw93/Kaku](https://github.com/tw93/Kaku) – 09/09<br>• ⭐ Star [tw93/Weekly](https://github.com/tw93/Weekly) – 09/09
+• ⭐ Star [mithi/epic-…ct-exercises](https://github.com/mithi/epic-react-exercises) – 09/09<br>• ⭐ Star [mithi/robot…s-coursework](https://github.com/mithi/robotics-coursework) – 09/09<br>• ⭐ Star [sampoder/democracy](https://github.com/sampoder/democracy) – 09/09<br>• ⭐ Star [rubenmarcus/aeo.js](https://github.com/rubenmarcus/aeo.js) – 09/09<br>• ⭐ Star [jasonlong/i…ontributions](https://github.com/jasonlong/isometric-contributions) – 09/09
 <!-- GITHUB:END -->
 
 </td>
