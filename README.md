@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⭐ Star [mifi/lossless-cut](https://github.com/mifi/lossless-cut) – 08/09<br>• ⭐ Star [mifi/ezshare](https://github.com/mifi/ezshare) – 08/09<br>• ⭐ Star [mifi/SimpleInstaBot](https://github.com/mifi/SimpleInstaBot) – 08/09<br>• ⭐ Star [mifi/stacktracify](https://github.com/mifi/stacktracify) – 08/09<br>• ⭐ Star [playfultech…io-guestbook](https://github.com/playfultechnology/audio-guestbook) – 08/09
+• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 08/09<br>• ⭐ Star [swyxio/gh-a…ata-scraping](https://github.com/swyxio/gh-action-data-scraping) – 08/09<br>• ⭐ Star [CapSoftware/Cap](https://github.com/CapSoftware/Cap) – 08/09<br>• ⭐ Star [mifi/lossless-cut](https://github.com/mifi/lossless-cut) – 08/09<br>• ⭐ Star [mifi/ezshare](https://github.com/mifi/ezshare) – 08/09
 <!-- GITHUB:END -->
 
 </td>
@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [I Miss You (feat. T…s) by Harold Melvin](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF)<br>• [Marinheiro Só by Clementina De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)
+• [I Miss You by Harold M…lue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)
 <!-- SPOTIFY:END -->
 
 </td>
