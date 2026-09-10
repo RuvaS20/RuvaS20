@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ✨ Create [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ⭐ Star [mithi/epic-…ct-exercises](https://github.com/mithi/epic-react-exercises) – 09/09<br>• ⭐ Star [mithi/robot…s-coursework](https://github.com/mithi/robotics-coursework) – 09/09<br>• ⭐ Star [sampoder/democracy](https://github.com/sampoder/democracy) – 09/09<br>• ⭐ Star [rubenmarcus/aeo.js](https://github.com/rubenmarcus/aeo.js) – 09/09
+• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ✨ Create [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ⭐ Star [mithi/epic-…ct-exercises](https://github.com/mithi/epic-react-exercises) – 09/09<br>• ⭐ Star [mithi/robot…s-coursework](https://github.com/mithi/robotics-coursework) – 09/09<br>• ⭐ Star [sampoder/democracy](https://github.com/sampoder/democracy) – 09/09
 <!-- GITHUB:END -->
 
 </td>
