@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ✨ Create [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ⭐ Star [mithi/epic-…ct-exercises](https://github.com/mithi/epic-react-exercises) – 09/09<br>• ⭐ Star [mithi/robot…s-coursework](https://github.com/mithi/robotics-coursework) – 09/09<br>• ⭐ Star [sampoder/democracy](https://github.com/sampoder/democracy) – 09/09
+• ⭐ Star [terrytangyuan/autoplotly](https://github.com/terrytangyuan/autoplotly) – 11/09<br>• ⭐ Star [terrytangyu…-ml-patterns](https://github.com/terrytangyuan/distributed-ml-patterns) – 11/09<br>• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ✨ Create [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ⭐ Star [mithi/epic-…ct-exercises](https://github.com/mithi/epic-react-exercises) – 09/09
 <!-- GITHUB:END -->
 
 </td>
@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [I Miss You by Harold M…lue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Chirimumoyo Chirimuninga by Garry Mapanzure](https://open.spotify.com/track/1O05bI50le4FgXblcWnkkF)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Pindirai by Garry Mapanzure](https://open.spotify.com/track/5v0IwdaweNHMydzOaRhjVy)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)
+• [I Miss You by Harold M…lue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)<br>• [Mistério do Planeta by Novos Baianos](https://open.spotify.com/track/0a3dxCb5m9uJ7J66d2h63u)
 <!-- SPOTIFY:END -->
 
 </td>
