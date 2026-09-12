@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⭐ Star [terrytangyuan/autoplotly](https://github.com/terrytangyuan/autoplotly) – 11/09<br>• ⭐ Star [terrytangyu…-ml-patterns](https://github.com/terrytangyuan/distributed-ml-patterns) – 11/09<br>• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ✨ Create [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ⭐ Star [mithi/epic-…ct-exercises](https://github.com/mithi/epic-react-exercises) – 09/09
+• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 11/09<br>• ⭐ Star [terrytangyuan/autoplotly](https://github.com/terrytangyuan/autoplotly) – 11/09<br>• ⭐ Star [terrytangyu…-ml-patterns](https://github.com/terrytangyuan/distributed-ml-patterns) – 11/09<br>• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09<br>• ✨ Create [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 09/09
 <!-- GITHUB:END -->
 
 </td>
