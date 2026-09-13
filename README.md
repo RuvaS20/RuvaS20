@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [I Miss You by Harold M…lue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)<br>• [Mistério do Planeta by Novos Baianos](https://open.spotify.com/track/0a3dxCb5m9uJ7J66d2h63u)
+• [I Miss You by Harold M…lue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)<br>• [Every Kind Of Way by H.E.R.](https://open.spotify.com/track/0Aa3g9EQoPNt6PiKjaUeb7)
 <!-- SPOTIFY:END -->
 
 </td>
