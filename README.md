@@ -34,7 +34,7 @@
 **ruvawrites**
 
 <!-- BLOG:START -->
-• [Diamond Tools](https://ruvawrites.pages.dev/blog/scrubs-diamond-tools/) – 06/09<br>• [What's DAT?](https://ruvawrites.pages.dev/blog/scrubs-whats-dat/) – 10/08<br>• [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) – 07/08<br>• [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) – 05/08<br>• [Cards & Regards](https://ruvawrites.pages.dev/blog/building-this-blog-the-postcard/) – 31/07
+• [The Future](https://ruvawrites.pages.dev/blog/soft-rains-future/) – 17/09<br>• [Diamond Tools](https://ruvawrites.pages.dev/blog/scrubs-diamond-tools/) – 06/09<br>• [What's DAT?](https://ruvawrites.pages.dev/blog/scrubs-whats-dat/) – 10/08<br>• [Double Diamonding](https://ruvawrites.pages.dev/blog/scrubs-double-d/) – 07/08<br>• [Co-designing Digital Health](https://ruvawrites.pages.dev/blog/scrubs-intro/) – 05/08
 <!-- BLOG:END -->
 
 </td>
