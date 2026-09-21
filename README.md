@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [I Miss You by Harold M…lue Notes](https://open.spotify.com/track/5y0yvFr9dAsT1ycNUYSRPl)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [You Know How… Feel so Good by Harold M…lue Notes](https://open.spotify.com/track/1OOT5tLOCpvg5VFZVeMYC5)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)
+• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)<br>• [Every Kind Of Way by H.E.R.](https://open.spotify.com/track/0Aa3g9EQoPNt6PiKjaUeb7)
 <!-- SPOTIFY:END -->
 
 </td>
