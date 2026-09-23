@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)<br>• [Every Kind Of Way by H.E.R.](https://open.spotify.com/track/0Aa3g9EQoPNt6PiKjaUeb7)
+• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)<br>• [Mistério do Planeta by Novos Baianos](https://open.spotify.com/track/0a3dxCb5m9uJ7J66d2h63u)
 <!-- SPOTIFY:END -->
 
 </td>
