@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 17/09<br>• ✨ Create [RuvaS20/codecpp](https://github.com/RuvaS20/codecpp) – 15/09<br>• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 11/09<br>• ⭐ Star [terrytangyuan/autoplotly](https://github.com/terrytangyuan/autoplotly) – 11/09<br>• ⭐ Star [terrytangyu…-ml-patterns](https://github.com/terrytangyuan/distributed-ml-patterns) – 11/09
+• ⬆️ Push [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) – 02/10<br>• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 17/09<br>• ✨ Create [RuvaS20/codecpp](https://github.com/RuvaS20/codecpp) – 15/09<br>• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 11/09<br>• ⭐ Star [terrytangyuan/autoplotly](https://github.com/terrytangyuan/autoplotly) – 11/09
 <!-- GITHUB:END -->
 
 </td>
@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)<br>• [Without Your Love by The Paper Kites](https://open.spotify.com/track/6fjLKdbtosUNaCfypOPqvn)
+• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)<br>• [Back Pocket by Vulfpeck](https://open.spotify.com/track/0tLwe28zupkUQMpoXIDgX2)
 <!-- SPOTIFY:END -->
 
 </td>
