@@ -43,7 +43,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)<br>• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)<br>• [Gentleman by Fela Kuti](https://open.spotify.com/track/7LAWgqlzE9bvjWQ6vql5Q2)
+• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)<br>• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)<br>• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)
 <!-- SPOTIFY:END -->
 
 </td>
