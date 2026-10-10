@@ -25,7 +25,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⭐ Star [openmrs/openmrs-core](https://github.com/openmrs/openmrs-core) – 07/10<br>• ⬆️ Push [RuvaS20/codecpp](https://github.com/RuvaS20/codecpp) – 06/10<br>• ⬆️ Push [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) – 02/10<br>• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 17/09<br>• ✨ Create [RuvaS20/codecpp](https://github.com/RuvaS20/codecpp) – 15/09
+• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 10/10<br>• ⭐ Star [openmrs/openmrs-core](https://github.com/openmrs/openmrs-core) – 07/10<br>• ⬆️ Push [RuvaS20/codecpp](https://github.com/RuvaS20/codecpp) – 06/10<br>• ⬆️ Push [RuvaS20/crosswalk](https://github.com/RuvaS20/crosswalk) – 02/10<br>• ⬆️ Push [RuvaS20/ruvawrites](https://github.com/RuvaS20/ruvawrites) – 17/09
 <!-- GITHUB:END -->
 
 </td>
