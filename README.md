@@ -15,7 +15,7 @@
   <p>I like cats, a lot. I code, and write and love music.</p>
 </div>
 
-<h2 align="center">✦ Much Ado ✦</h2>
+<h2 align="center"> Much Ado </h2>
 
 <!-- Recent activity + latest blog posts + tracks on repeat -->
 <table width="100%">
