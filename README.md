@@ -11,7 +11,7 @@
     <a href="https://www.linkedin.com/in/ruvarashe-sadya/"><img height="20" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
     <a href="mailto:ruvarashe.sadya@gmail.com"><img height="20" src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
   </p>
-  <p>Hi, I'm Ruva! I like cats, a lot. I code, and write and love music.</p>
+  <p>Hi, I'm Ruva! I like cats, a lot. I code, and write and listen to music.</p>
 </div>
 
 <h2 align="center"> Much Ado </h2>
