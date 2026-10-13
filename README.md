@@ -42,7 +42,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)<br>• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)<br>• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [(I Can't Get… Satisfaction by Otis Redding](https://open.spotify.com/track/1zB6CEs1n9MrmBKy22AOlp)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)
+• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)<br>• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)<br>• [(I Can't Get… Satisfaction by Otis Redding](https://open.spotify.com/track/1zB6CEs1n9MrmBKy22AOlp)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)
 <!-- SPOTIFY:END -->
 
 </td>
