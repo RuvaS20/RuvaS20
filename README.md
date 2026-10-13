@@ -24,7 +24,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 12/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 11/10<br>• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 10/10<br>• ⭐ Star [openmrs/openmrs-core](https://github.com/openmrs/openmrs-core) – 07/10<br>• ⬆️ Push [RuvaS20/codecpp](https://github.com/RuvaS20/codecpp) – 06/10
+• ⬆️ Push [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 13/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 12/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 11/10<br>• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 10/10<br>• ⭐ Star [openmrs/openmrs-core](https://github.com/openmrs/openmrs-core) – 07/10
 <!-- GITHUB:END -->
 
 </td>
@@ -42,7 +42,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)<br>• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)<br>• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)<br>• [Marinheiro Só by Clementi… De Jesus](https://open.spotify.com/track/1Wx59ToemJzw35y2g0RcNW)
+• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)<br>• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)<br>• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [(I Can't Get… Satisfaction by Otis Redding](https://open.spotify.com/track/1zB6CEs1n9MrmBKy22AOlp)<br>• [Don't Know Why by Norah Jones](https://open.spotify.com/track/1zNXF2svmdlNxfS5XeNUgr)
 <!-- SPOTIFY:END -->
 
 </td>
