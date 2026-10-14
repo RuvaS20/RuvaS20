@@ -24,7 +24,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ⬆️ Push [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 13/10<br>• ⬆️ Push [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 12/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 12/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 11/10<br>• ⬆️ Push [RuvaS20/Project-Inspos](https://github.com/RuvaS20/Project-Inspos) – 10/10
+• ⬆️ Push [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 13/10<br>• ✨ Create [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 12/10<br>• ⬆️ Push [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 12/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 12/10<br>• ⬆️ Push [RuvaS20/RuvaS20](https://github.com/RuvaS20/RuvaS20) – 11/10
 <!-- GITHUB:END -->
 
 </td>
