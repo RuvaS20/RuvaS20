@@ -42,7 +42,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Into My Arms by Nick Cav…Bad Seeds](https://open.spotify.com/track/39CFOvYse9fcMhIwyS73Fl)<br>• [Fool for You by Alice Smith](https://open.spotify.com/track/4H44ahNyyS32ycy4lJyWe1)<br>• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)<br>• [All the Difference by Obongjayar](https://open.spotify.com/track/2KxVEwlxExzVHI2N5GIYZI)
+• [Fool for You by Alice Smith](https://open.spotify.com/track/4H44ahNyyS32ycy4lJyWe1)<br>• [Pink Moon by Nick Drake](https://open.spotify.com/track/4KROoGIaPaR1pBHPnR3bwC)<br>• [Closer by Goapele](https://open.spotify.com/track/2UXEwIOtNGUUgGdXnds8V7)<br>• [Into My Arms by Nick Cav…Bad Seeds](https://open.spotify.com/track/39CFOvYse9fcMhIwyS73Fl)<br>• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)
 <!-- SPOTIFY:END -->
 
 </td>
