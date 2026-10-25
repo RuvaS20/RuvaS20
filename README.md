@@ -24,7 +24,7 @@
 **ruvacodes**
 
 <!-- GITHUB:START -->
-• ✨ Create [RuvaS20/emberly](https://github.com/RuvaS20/emberly) – 24/10<br>• ⬆️ Push [RuvaS20/zunde](https://github.com/RuvaS20/zunde) – 21/10<br>• ✨ Create [RuvaS20/zunde](https://github.com/RuvaS20/zunde) – 21/10<br>• ⬆️ Push [RuvaS20/cli…h-prediction](https://github.com/RuvaS20/climate-health-prediction) – 20/10<br>• ⬆️ Push [RuvaS20/ruv…20.github.io](https://github.com/RuvaS20/ruvaS20.github.io) – 13/10
+• ⬆️ Push [RuvaS20/emberly](https://github.com/RuvaS20/emberly) – 25/10<br>• ✨ Create [RuvaS20/emberly](https://github.com/RuvaS20/emberly) – 24/10<br>• ⬆️ Push [RuvaS20/zunde](https://github.com/RuvaS20/zunde) – 21/10<br>• ✨ Create [RuvaS20/zunde](https://github.com/RuvaS20/zunde) – 21/10<br>• ⬆️ Push [RuvaS20/cli…h-prediction](https://github.com/RuvaS20/climate-health-prediction) – 20/10
 <!-- GITHUB:END -->
 
 </td>
