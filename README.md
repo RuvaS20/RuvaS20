@@ -42,7 +42,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Closer by Goapele](https://open.spotify.com/track/2UXEwIOtNGUUgGdXnds8V7)<br>• [Into My Arms by Nick Cav…Bad Seeds](https://open.spotify.com/track/39CFOvYse9fcMhIwyS73Fl)<br>• [Fool for You by Alice Smith](https://open.spotify.com/track/4H44ahNyyS32ycy4lJyWe1)<br>• [(I Can't Get… Satisfaction by Otis Redding](https://open.spotify.com/track/1zB6CEs1n9MrmBKy22AOlp)<br>• [Re.Up by Rationale](https://open.spotify.com/track/2Fn0TbHnNqYVTs5zQY4ne9)
+• [Closer by Goapele](https://open.spotify.com/track/2UXEwIOtNGUUgGdXnds8V7)<br>• [Into My Arms by Nick Cav…Bad Seeds](https://open.spotify.com/track/39CFOvYse9fcMhIwyS73Fl)<br>• [Fool for You by Alice Smith](https://open.spotify.com/track/4H44ahNyyS32ycy4lJyWe1)<br>• [(I Can't Get… Satisfaction by Otis Redding](https://open.spotify.com/track/1zB6CEs1n9MrmBKy22AOlp)<br>• [Avalanche by Migos](https://open.spotify.com/track/4KD0lLJ4OGonZhBeKtct9I)
 <!-- SPOTIFY:END -->
 
 </td>
