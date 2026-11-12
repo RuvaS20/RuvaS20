@@ -42,7 +42,7 @@
 **ruvalistens**
 
 <!-- SPOTIFY:START -->
-• [Closer by Goapele](https://open.spotify.com/track/2UXEwIOtNGUUgGdXnds8V7)<br>• [Into My Arms by Nick Cav…Bad Seeds](https://open.spotify.com/track/39CFOvYse9fcMhIwyS73Fl)<br>• [Fool for You by Alice Smith](https://open.spotify.com/track/4H44ahNyyS32ycy4lJyWe1)<br>• [Just Friends by Musiq Soulchild](https://open.spotify.com/track/5jgEJXjECdlhzNgfITSTVm)<br>• [Strange by Celeste](https://open.spotify.com/track/7sq2z9oX2S0CvgTqCZ0ko4)
+• [Closer by Goapele](https://open.spotify.com/track/2UXEwIOtNGUUgGdXnds8V7)<br>• [Into My Arms by Nick Cav…Bad Seeds](https://open.spotify.com/track/39CFOvYse9fcMhIwyS73Fl)<br>• [Fool for You by Alice Smith](https://open.spotify.com/track/4H44ahNyyS32ycy4lJyWe1)<br>• [Just Friends by Musiq Soulchild](https://open.spotify.com/track/5jgEJXjECdlhzNgfITSTVm)<br>• [Hey Hey by Dennis Ferrer](https://open.spotify.com/track/1RWyjIAFlYAtBnzKVirzd7)
 <!-- SPOTIFY:END -->
 
 </td>
